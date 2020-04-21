@@ -178,15 +178,15 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>我&nbsp;&nbsp;/&nbsp;&nbsp;的&nbsp;&nbsp;/&nbsp;&nbsp;作&nbsp;&nbsp;/&nbsp;&nbsp;品</h2>
+					<h2 style="text-align: center;">Mes projets</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 text-center col-padding animate-box" v-for="el in Work">
-					<a :href="el.地址" class="work" :style="'background-image: url('+el.图片+');'">
+					<a :href="el.url" class="work" :style="'background-image: url('+el.img+'); height:250px;width:250px;'">
 						<div class="desc">
-							<h3>{{el.Nom}}</h3>
-							<span>{{el.Pourcentage}}</span>
+							<h3>{{el.nom}}</h3>
+							<span>{{el.intro}}</span>
 						</div>
 					</a>
 				</div>
@@ -216,7 +216,7 @@
 
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	<!-- 配置相关 -->
+	<!-- config -->
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<script src="config.js"></script>
 

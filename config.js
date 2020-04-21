@@ -124,48 +124,29 @@ var app = new Vue({
     /** 我的作品*/
     Work: [
       {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
+        nom: 'Java',
+        url: 'https://github.com/hicham-arahhou/seven-wonders-lo43',
+        img: 'images/java.png',
+        intro: 'Projet'
       },
       {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
+        nom: 'Web',
+        url: 'https://github.com/ljl19971006/CV',
+        img: 'images/web.png',
+        intro: 'Website'
       },
       {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
-      }, {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
-      }, {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
-      }, {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
-      }, {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
-      }, {
-        名称: '篮球',
-        地址: 'www.baidu.com',
-        图片: 'images/cxk.jpg',
-        简介: '新作品'
-      }
+        nom: 'C++',
+        url: 'https://github.com/ljl19971006/projetdecours',
+        img: 'images/C++.png',
+        intro: 'Projet C++'
+      },
+      {
+        nom: "Base de donnee",
+        url: 'https://drive.google.com/open?id=1m8y82o4a0AU1oT9VNEmenvHLUVV4L5Ez1PQW9yTs-a8',
+        img: 'images/SQL.jpg',
+        intro: 'SQL'
+      }, 
     ]
   },
   mounted () {
